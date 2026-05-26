@@ -10,9 +10,27 @@
 
 <body>
 
-  <?php
-  echo "leeg";
-  ?>
+<?php
+
+$s = "Hallo wereld";
+var_dump($s);
+
+$i = 42;
+var_dump($i);
+
+$f = 3.14;
+var_dump($f);
+
+$woordenArray = array("rood", "blauw", "groen");
+var_dump($woordenArray);
+
+$nummerArray = array(1, 2, 3);
+var_dump($nummerArray);
+
+$combinatieArray = array("appel", 2, "banaan", 3);
+var_dump($combinatieArray);
+
+?>
 
 </body>
 
